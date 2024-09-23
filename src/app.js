@@ -22,5 +22,10 @@ const generateCard = () => {
 
   if (randomSuit === "♦","♥"){
     btn.style.color = "red";
+    rank.style.color = "red";
+  }
+  else {
+    btn.style.color = "black";
+    rank.style.color = "black";
   }
 };
