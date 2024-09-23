@@ -21,6 +21,6 @@ const generateCard = () => {
   let randomRank = rank[Math.floor(Math.random() * rank.length)];
 
   if (randomSuit === "♦","♥"){
-    
+    btn.style.color = "red";
   }
 };
